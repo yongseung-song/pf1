@@ -1,0 +1,83 @@
+#title {
+    background-image: url(../img/kal_2.jpeg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#title .wrap{
+    
+    text-align: center;
+}
+#title h2{
+    font-weight: 300;
+    font-size: 64px;
+    color: #fff;
+    letter-spacing: -4px;
+}
+
+#title h2::after{
+    content: "";
+    display: block;
+    height: 50px;
+    background-color: #fff;
+    width: 1px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+strong {
+    font-weight: bold;
+}
+
+#title p{
+    color: white;
+    line-height: 1.4;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); 
+}
+#title button{
+
+    border: none;
+
+    height: 50px;
+    background-color: #ff3608;
+    color: #fff;
+    width: 90px;
+    position: relative;
+    opacity: 0.93;
+}
+
+#title button::before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    display: block;
+    border-top: 25px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 25px solid #ff3608;
+    border-left: 45px solid transparent;
+    position: absolute;
+    left: 0;
+    top: -50px;
+}
+#title button::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    display: block;
+    border-top: 25px solid #ff3608;
+    border-right: 45px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 45px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    
+}
+#title button:hover{
+    cursor: pointer;
+}
